@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Exercicio HTML EBAC</title>
+</head>
+<body>
+    <header>
+        <h1><mark>Exercicio Formulário HTML EBAC - Luiz Felipe Rangel</mark></h1><br/>
+        <hr/>
+    </header>
+
+    <main>
+        <h3>Preencha todos os campos para realizar o cadastro:</h3>
+        <form action="./enviado_sucesso.html" id="enviar">
+            <ol>
+                <li><label for="nome">Digite o seu nome completo:</label>
+                <input id="nome" type="text" /></li> <br/>
+                <li><label for="email">Digite o seu e-mail:</label>
+                <input id="email" type="email" /></li> <br/>
+                <li><label for="idade">Digite a sua idade:</label>
+                <input id="idade" type="date" /></li> <br/>
+                <li><label for="celular">Digite o seu numero de celular:</label>
+                <input id="celular" type="text" placeholder="DDD+numero" /></li> <br/>
+                <li><label for="senha">Crie uma senha:</label>
+                <input id="senha" type="password" /></li> <br/>
+            </ol>
+            <button type="submit" form="enviar">Enviar</button>
+            <button type="reset">Limpar</button>
+        </form>
+    </main>
+    <footer>
+        <br/>
+        <br/>
+        <br/>
+        &copy; 2023 - Todos os direitos reservados - Luiz Felipe Rangel
+    </footer>
+</body>
+</html>
