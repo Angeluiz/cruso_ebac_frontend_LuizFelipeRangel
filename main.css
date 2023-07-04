@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+
+    padding-top: 8px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-color: #7f9b99;
+}
+
+.links {
+    text-align: center;
+    background-color: #7f9b99;
+}
+
+header ul {
+    display: inline-flex;
+    align-content: center;
+}
+
+header li {
+    display: flex;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+header li a {
+    border-style: outset;
+    border-color:bisque;
+    background-color: white;
+    text-decoration: none;
+    border-width: 2px;
+    margin: 3px 30px;
+    padding: 5px 50px;
+}
+
+header li a:hover{
+    border-color:black;
+}
+
+.aesporte {
+    color:darkgreen;
+}
+
+.aeconomia {
+    color: rgb(1, 58, 163);
+}
+
+.aentretenimento {
+    color: crimson;
+}
+
+.atecnologia {
+    color: darkorange;
+}
+
+.aesporte:hover {
+    background-color: rgb(149, 199, 149);
+}
+
+.aeconomia:hover {
+    background-color: rgb(135, 135, 211);
+}
+
+.aentretenimento:hover {
+    background-color: rgb(230, 137, 137);
+}
+
+.atecnologia:hover {
+    background-color: rgb(241, 195, 137);
+}
+
+.articles {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+.articles article img {
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+.articles article:hover {
+    font-weight: bolder;
+    border-style: double;
+}
+
+section {
+    padding: 5px 10px;
+}
+
+.articles article {
+    margin-bottom: 16px;
+}
+
+section h2 {
+    margin: 16px auto;
+    text-align: center;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.articles article a {
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.articles article a:hover {
+    text-decoration:underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#esportes {
+    background-color: rgba(0,255,0, 0.2);
+}
+
+#economia {
+    background-color: #f8f59f;
+}
+
+#entretenimento {
+    background-color: rgb(252, 144, 144);
+}
+
+#tecnologia {
+    background-color: rgb(240, 170, 85);
+}
+
+.fim {
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    background-color: #7f9b99;
+    font-family: Arial, Helvetica, sans-serif;
+}
